@@ -12,10 +12,11 @@ public class Main {
         System.out.println(answer);
     }
 
+
     public static String calc(String input) {
 
         String[] mass = input.split(" ");
-        if (input.length() != 3) return "Неверная запись";
+        if (mass.length != 3) return "Неверная запись";
 
         try {
 
